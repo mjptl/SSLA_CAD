@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title>Time & Date</title>
+		<style>
+			table
+			{
+			width:100%;
+			}
+			
+			input[type=text],select,textarea
+			{
+			width: 100%;
+			padding: 12px;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+			margin-top: 6px;
+			margin-bottom: 16px;
+			resize: vertical;
+			}
+			
+		</style>
+	</head>
+<body>
+	<form action="form01" method="POST">
+		<table>
+			<tr>
+				<td align="left" id="date">Date & Time : </td>
+				<td><input required type="text" name="date" id="date" placeholder="Enter date & time."></td>
+			</tr>
+			
+			<tr>
+				<td align="left">Description / Text : </td>
+				<td><textarea required name="led_data" placeholder="Type your description here...." style="height:70px;width:100%"></textarea></td>
+			</tr>
+			
+			<tr>
+				<td align="center"><input type="submit" value="Submit"></td>
+				<td align="center"><input type="submit" value="Reset"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
